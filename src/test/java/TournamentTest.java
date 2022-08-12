@@ -14,41 +14,38 @@ public class TournamentTest {
     Player player4 = new Player(4, "Vladimir", 60);
 
 
-    @Test
-
-    public void findByName1() {
-
-        game.register(player1);
-        game.register(player2);
-        game.register(player3);
-        game.register(player4);
-//        Collection<Player> playerList = new ArrayList<>();
-//        playerList.add()
+//    @Test
 //
-//                game.addAll(pla)
-
-        Player actual = game.findByName("Andrey");
-        Player expected = player1;
-
-        assertEquals(expected, actual);
-    }
-
-
-    @Test
-
-    public void findByName2() {
-
-        game.register(player1);
-        game.register(player2);
-        game.register(player3);
-        game.register(player4);
-
-
-        Player actual1 = game.findByName("Roma");
-        Player expected1 = null;
-
-        assertEquals(null, actual1);
-    }
+//    public void findByName1() {
+//
+//        game.register(player1);
+//        game.register(player2);
+//        game.register(player3);
+//        game.register(player4);
+//
+//
+//        Player actual = game.findByName("Andrey");
+//        Player expected = player1;
+//
+//        assertEquals(expected, actual);
+//    }
+//
+//
+//    @Test
+//
+//    public void findByName2() {
+//
+//        game.register(player1);
+//        game.register(player2);
+//        game.register(player3);
+//        game.register(player4);
+//
+//
+//        Player actual1 = game.findByName("Roma");
+//        Player expected1 = null;
+//
+//        assertEquals(null, actual1);
+//    }
 
     @Test
 
